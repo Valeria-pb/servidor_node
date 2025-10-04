@@ -3,6 +3,6 @@ const express = require("express");
     const PORT = 3001; // Porta específica para este projeto
 
     app.listen(PORT, () => {
-        console.log(`--- PROJETO 1: SERVIDOR DE USUÁRIOS ---`);
+        console.log(`SERVIDOR DE USUÁRIOS`);
         console.log(`Rodando na porta ${PORT}.`);
     });
